@@ -1,0 +1,211 @@
+
+
+<HTML>
+<HEAD>
+
+
+
+  <TITLE>Gavetero x 2</TITLE>
+
+
+
+  <META NAME="description" content="Gavetero x 2">
+  <META NAME="keywords" CONTENT="">
+  <META NAME="generator" content="eComm PRO v2.08">
+  <META NAME="resource-type" content="document">
+  <META NAME="distribution" content="Global">
+  <META NAME="robots" content="All">
+  <META NAME="copyright" content="Copyright ©2001 Manualidades y Mas">
+
+
+
+  <style type="text/css">A:hover{color:#FF0000;}
+.m {font-size: 8pt; font-family:verdana,helvetica,arial; font-weight:normal;}
+.b {font-size: 8pt; font-family:verdana,helvetica,arial; font-weight:bold;}
+  </style>
+
+  </HEAD>
+
+
+
+  
+
+<SCRIPT> 
+
+var mode = 1;
+
+if (mode == 0){
+    if (name != "shopmain"){
+    document.open();
+    document.writeln('<FRAMESET COLS="*,208" BORDER=0 FRAMEBORDER=NO ' +
+'FRAMESPACING=0>' +
+'<FRAME SRC="' + location + '?x" NAME="shopmain">' +
+'<FRAMESET ROWS="*,130">' +
+'<FRAME SRC="trolley.html" NAME="shoptrolley" MARGINWIDTH=8' +
+' MARGINHEIGHT=5>' +
+'<FRAME SRC="register.html' + location.search +
+'" NAME="shopregister" SCROLLING=NO>' +
+'</FRAMESET>' + '</FRAMESET>' + '<NOFRAMES>');
+    document.close();
+  }
+}
+  
+function addItem(){
+   if (top.location == self.location){     
+       var infoString;
+       infoString = '?add&' + arguments[0] + '	' + arguments[1]+':'+arguments[9]+':'+arguments[10] + '	' + arguments[2] + '	' + arguments[3] + '	' + arguments[4] + '	' + arguments[5] + '	' + arguments[6] + '	' + arguments[7] + '	' + arguments[8]+'	'+arguments[9]+'	'+arguments[10]; 
+       document.open(); 
+       document.writeln('<' + 'SCRIPT' + '>'); 
+       document.writeln('function info(){ return "' + infoString + '"; }');
+       document.writeln('<' + '/' + 'SCRIPT' + '>'); 
+       document.writeln('<FRAMESET COLS="*,208" BORDER=0 FRAMEBORDER=NO ' +
+'FRAMESPACING=0>' +
+'<FRAME SRC="' + location + '?x'+ '" NAME="shopmain">' +
+'<FRAMESET ROWS="*,130">' +
+'<FRAME SRC="trolley.html" NAME="shoptrolley" MARGINWIDTH=8' +
+' MARGINHEIGHT=5>' +
+'<FRAME SRC="register.html' + location.search +
+'" NAME="shopregister" SCROLLING=NO>' +
+'</FRAMESET>' + '</FRAMESET>' + '<NOFRAMES>');
+      document.close();       
+   }       
+   else
+      parent.shopregister.addItem(arguments[0],arguments[1]+':'+arguments[9]+':'+arguments[10],arguments[2],arguments[3],arguments[4],parseInt(arguments[5]),arguments[6],arguments[7],arguments[8],arguments[9],arguments[10]);
+}
+
+function removeItem(code){
+   if (top.location != self.location){           
+       parent.shopregister.removeItem(code);       
+       if (mode == 1 && !parent.shopregister.inTrolley()){
+          top.location = self.location;
+       } 
+   }
+}
+</SCRIPT>
+
+
+
+
+  <BODY text=BLACK bgcolor=WHITE link=#901000 vlink=#800080 alink=#FF0000 topmargin=0 leftmargin=0>
+
+  <TABLE cellpadding=8 cellspacing=0 width=100% height=100%>
+
+
+
+  <tr><td width=25% valign=top bgcolor="WHITE">
+
+  <TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 height=100%>
+  <TR><TD height=1 valign=top>
+
+
+
+  <IMG SRC="items_5e.png" ALIGN=TOP WIDTH=180 HEIGH=26></TD></TR><TR><TD VALIGN=TOP BGCOLOR="#E2ABA7">
+
+  <table cellspacing=0 cellpadding=6 border=0><tr><td>
+
+
+
+  <table width=100%><tr><td valign=top width=5%><img src=a_2.png></td><td class=m><a href="index.html">Manualidades y Mas</a></td></tr>
+<tr><td valign=top width=5%><img src=f_2.png></td><td class=m><a href="5.htm">Gaveteros</a><table class=mb width=100%><tr><td valign=top width=5%><img src=o_2.png></td><td class=b><a href="11.htm">Gavetero X 2</a></td></tr>
+<tr><td valign=top width=5%><img src=g_2.png></td><td class=m><a href="12.htm">Gavetero Complex</a></td></tr>
+</table></td></tr>
+<tr><td valign=top width=5%><img src=f_2.png></td><td class=m><a href="6.htm">Paletitas</a></td></tr>
+<tr><td valign=top width=5%><img src=f_2.png></td><td class=m><a href="7.htm">Animalitos</a></td></tr>
+<tr><td><br></td><td><br></td></tr><tr><tr><td valign=top width=5%><img src=a_2.png></td><td class=m><a href="http://www.vendercom.com/directory.htm" target=_blank>Other Stores</a></td></tr>
+</table>
+
+
+
+
+<br>
+<table cellspacing=6><tr><td>
+<FORM METHOD="GET" ACTION="http://ecomm.vendercom.com/search">
+<table><tr><td class=b>
+Search:<br>
+<INPUT name="id" TYPE=HIDDEN value="V21000-00">
+<INPUT name="query" TYPE=TEXT SIZE=15 ALIGN=left>
+</td><td valign=bottom><center><INPUT TYPE="SUBMIT" VALUE="Go">
+</td></tr></table>
+</td></tr></table>
+</FORM>
+
+
+
+
+
+
+  </td></tr></table>
+
+
+
+  <br><br><br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br><br><br>
+
+  </TD></TR></TABLE>
+  </td><td NOWRAP>&nbsp;
+  </td><td width=85% valign=top align=left>
+  <br>
+  <table width=100% cellspacing=0><tr><td width=1% valign=top>
+
+
+
+  <img src="img/organizador.jpg" ALT="Gavetero X 2" border=0 align=LEFT></a>
+  </td><td width=10>
+  </td><td valign=top>
+  <TABLE width=100% cellspacing=0><TR><TD VALIGN=TOP>
+
+
+
+  <font size=+1><b>Gavetero x 2</b></font>
+
+
+
+  </TD><TD ALIGN=RIGHT><font size=+3>
+  <A HREF="javascript:f1();"><b> $120</b></font></a>
+  </TD></TR></TABLE>
+
+
+
+  <TABLE>
+  <tr><td valign=top></td><td></td></tr>
+  <tr><td valign=top></td><td></td></tr>
+  <tr><td valign=top></td><td></td></tr>
+  <tr><td valign=top></td><td></td></tr>
+  <tr><td valign=top></td><td></td></tr>
+  <tr><td valign=top></td><td></td></tr>
+  <FORM NAME=form1>    
+  <TR><TD>Color</TD><TD><SELECT NAME="OPTION1"><OPTION value="Rosado">Rosado<OPTION value="Celeste">Celeste<OPTION value="Amarillo">Amarillo</SELECT></TD></TR>
+  <TR><TD>Material</TD><TD><SELECT NAME="OPTION2"><OPTION value="Carton">Carton<OPTION value="Plástico">Plástico</SELECT></TD></TR>
+  </FORM>
+  </TABLE>
+
+  <br>
+
+
+  Gavetero de dos gavetas de 4cm x 6cm con agarrradoes de metal
+
+  </td></tr></table>
+  <br>
+  <table width=100%><tr><td>
+
+
+
+  <a HREF="5.htm"><img src="back_5e.png" border=0 alt="Back"></a>
+  </td><td align=right>
+
+
+
+  <a HREF="javascript:removeItem('11')"><img src="remove_5e.png" border=0></a>
+
+
+
+  <A HREF="javascript:f1();"><img src="purchase_5e.png" border=0></a>
+
+  </td></tr></table>
+  </td></tr></table>
+
+</BODY>
+
+ 
+</HTML>
+<SCRIPT>function f1(){var option1=document.form1.OPTION1.value;var option2=document.form1.OPTION2.value;addItem('11.htm','11','Gavetero X 2','120','img/organizador.jpg',1,0,0,0,option1,option2);}</SCRIPT>

@@ -1,0 +1,16 @@
+; Ecomm Index File
+; v2.08
+VERSION=2.08.002
+TITLE=Manualidades y Mas
+CURRENCY=$
+COUNTRY=Guatemala
+#1|'Gavetero X 2'|'120'|'11.htm'|'organizador.jpg'|||
+#1|'Gavetero Complex'|'300'|'12.htm'|'organizador completo.jpg'|||
+#0|'Gaveteros'||'5.htm'|'fresita.jpg'|||
+#1|'Paletita de animalito'|'10'|'13.htm'|'pollito.jpg'|||
+#0|'Paletitas'||'6.htm'|'mar.jpg'|||
+#0|'Animalitos'||'7.htm'||||
+#0|'Manualidades y Mas'||'index.html'||||
+#4|'Acerca de Nosotros'||'about.html'|'pollito.jpg'|||
+#4|'News'||'news.html'||||
+#4|'Contact Us'||'contact.html'||||
